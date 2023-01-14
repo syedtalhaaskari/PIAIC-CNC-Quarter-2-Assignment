@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+</head>
+
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+
+    <form>
+        <fieldset>
+            <legend>
+                Your Details:
+            </legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+            </p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>
+                Your Review:
+            </legend>
+            <p>
+                <label for="hear">How did you hear about us?</label>
+                <select id="hear">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="amazon">Amazon</option>
+                </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br />
+                <input type="radio" id="visit-yes" name="visit" value="Yes" /> <label for="visit-yes">Yes</label>
+                <input type="radio" id="visit-no" name="visit" value="No" /> <label for="visit-no">No</label>
+                <input type="radio" id="visit-maybe" name="visit" value="Maybe" /> <label
+                    for="visit-maybe">Maybe</label>
+            </p>
+            <p>
+                <label for="comments">Comments:</label>
+                <br />
+                <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
+            </p>
+            <input type="checkbox" name="sign" id="sign">
+            <label for="sign">Sign me up for email updates</label>
+            <br />
+            <input type="submit" value="Submit review">
+        </fieldset>
+    </form>
+</body>
+
+</html>
