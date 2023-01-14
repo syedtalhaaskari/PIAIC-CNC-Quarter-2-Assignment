@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8 - Contact</title>
+</head>
+
+<body style="min-height: 100vh; display: flex; flex-direction: column;">
+    <nav style="background-color: #5B9BD5; height: 60px; padding: 20px;display: flex;">
+        <img src="./8 img/piaic_logo.PNG" style="height: 100%;" />
+        <ul style="list-style: none; display: flex; align-self: center; margin: 0 auto;">
+            <li style="margin: 0 10px"><a style="text-decoration: none; color: black" href="./index.html">HOME</a></li>
+            <li style="margin: 0 10px"><a style="text-decoration: none; color: black" href="./about.html">ABOUT</a></li>
+            <li style="margin: 0 10px"><a style="text-decoration: none; color: black"
+                    href="./portfolio.html">PORTFOLIO</a></li>
+            <li style="margin: 0 10px"><a style="text-decoration: none; color: black" href="./contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div style="max-width: 1200px; margin: 20px auto; padding: 0 20px">
+        <form style="margin-bottom: 20px;">
+            <fieldset>
+                <legend>
+                    Your Details:
+                </legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" />
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>
+                    Your Review:
+                </legend>
+                <p>
+                    <label for="hear">How did you hear about us?</label>
+                    <select id="hear">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="amazon">Amazon</option>
+                    </select>
+                </p>
+                <p>
+                    Would you visit again?
+                    <br />
+                    <input type="radio" id="visit-yes" name="visit" value="Yes" /> <label for="visit-yes">Yes</label>
+                    <input type="radio" id="visit-no" name="visit" value="No" /> <label for="visit-no">No</label>
+                    <input type="radio" id="visit-maybe" name="visit" value="Maybe" /> <label
+                        for="visit-maybe">Maybe</label>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label>
+                    <br />
+                    <textarea rows="4" cols="40" name="comments" id="comments"></textarea>
+                </p>
+                <input type="checkbox" name="sign" id="sign">
+                <label for="sign">Sign me up for email updates</label>
+                <br />
+                <input type="submit" value="Submit review">
+            </fieldset>
+        </form>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0883526784924!2d67.07258213529636!3d24.860831821688524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ff89c73993d%3A0x91c53ba630675f8!2sPresidential%20Initiative%20for%20Artificial%20Intelligence%20and%20Computing%20(PIAIC)%20Headquarters!5e0!3m2!1sen!2s!4v1673695328145!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer
+        style="background-color: #5B9BD5; padding: 5px; text-align: center; border-top: 1px solid black; margin-top: auto;">
+        Copyright &copy; 2023. All rights reserved.
+    </footer>
+</body>
+
+</html>
