@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: -2px 2px 5px #777;
+}
+
+ul,
+.author,
+h2,
+h3 {
+    font-size: 13.5px;
+}
+
+h1,
+.h3-big {
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li:first-child a {
+    color: #1A0DAB;
+}
+
+ul li:not(:first-child) a {
+    color: #000;
+}
+
+p {
+    font-size: 12.5px;
+}
+
+.author,
+.author a {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
