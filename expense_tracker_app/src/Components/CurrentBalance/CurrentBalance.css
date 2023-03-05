@@ -1,0 +1,15 @@
+.current-balance {
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.current-balance div {
+	font-size: 1rem;
+}
+
+.current-balance h2 {
+	font-size: 2.5rem;
+	color: var(--neutral-color)
+}

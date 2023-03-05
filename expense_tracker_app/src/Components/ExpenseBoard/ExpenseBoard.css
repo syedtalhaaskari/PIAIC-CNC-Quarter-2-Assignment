@@ -1,0 +1,26 @@
+.expense-board {
+	border-radius: 5px;
+	margin: 10px 0;
+	box-shadow: 0 0 10px gray;
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 10px;
+}
+
+.expense-board>span {
+	width: 150px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.expense-board>span:first-child {
+	border-right: 1px solid #ddd;
+}
+
+.expense-board>span>div {
+	margin-top: 5px;
+	font-size: 1.2rem;
+	color: var(--neutral-color);
+}

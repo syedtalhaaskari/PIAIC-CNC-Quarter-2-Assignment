@@ -1,0 +1,46 @@
+:root {
+	--plus-color: rgb(114, 191, 0);
+	--minus-color: rgb(255, 39, 39);
+	--neutral-color: rgb(155, 155, 155);
+	--submit-button-color: rgb(18, 152, 201);
+	--submit-button-hover-color: rgb(84, 183, 220);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	margin: 20px auto;
+	width: 400px;
+	height: max-content;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0 0 10px gray;
+}
+
+.border-plus {
+	border-right: 8px solid var(--plus-color) !important;
+}
+
+.border-minus {
+	border-right: 8px solid var(--minus-color) !important;
+}
+
+.plus {
+	color: var(--plus-color) !important;
+}
+
+.minus {
+	color: var(--minus-color) !important;
+}
+
+.justify-content-center {
+	justify-content: center !important;
+}

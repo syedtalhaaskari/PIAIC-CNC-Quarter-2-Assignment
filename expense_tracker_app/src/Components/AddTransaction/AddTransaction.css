@@ -1,0 +1,39 @@
+.add-transaction {
+    width: 325px;
+    margin: 10px auto;
+}
+
+.add-transaction hr {
+    margin: 5px auto 10px auto;
+}
+
+.add-transaction label {
+    font-weight: 600;
+    display: block;
+    margin: 10px auto;
+}
+
+.add-transaction label input {
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+.add-transaction input[type="submit"] {
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    background-color: var(--submit-button-color);
+    color: white;
+    border: 1px solid #888;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-transaction input[type="submit"]:hover {
+    background-color: var(--submit-button-hover-color);
+}
